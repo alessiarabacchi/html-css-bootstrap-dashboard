@@ -1,0 +1,22 @@
+#header {
+  height: 80px;
+}
+
+#header img {
+  height: 50px;
+  width: 50px;
+  margin-left: 20px;
+}
+
+#header i {
+  color: #ff8f00;
+}
+
+#header .icon-desktop {
+  color: grey;
+}
+
+#header #desktop-logo {
+  height: 100px;
+  width: 150px;
+}
