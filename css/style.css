@@ -1,3 +1,4 @@
+/*HEADER*/
 #header {
   height: 80px;
 }
@@ -19,4 +20,16 @@
 #header #desktop-logo {
   height: 100px;
   width: 150px;
+}
+
+/*MAIN*/
+#left-bar {
+  width: 100px;
+  height: calc(100vh - 80px);
+  background-color: #0f263b;
+  color: white;
+}
+
+#second-left-bar {
+  margin-top: 750px;
 }
