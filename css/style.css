@@ -38,6 +38,7 @@
 #blue-bar {
   height: 180px;
   width: calc(100vw - 100px);
+
   background-color: #1b72e8;
   color: white;
 }
@@ -52,4 +53,9 @@
   background-color: #165bba;
   border-radius: 10%;
   margin: 10px;
+}
+
+.container {
+  position: absolute;
+  top: 280px;
 }
