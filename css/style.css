@@ -22,7 +22,7 @@
   width: 150px;
 }
 
-/*MAIN*/
+/*LEFT-BAR*/
 #left-bar {
   width: 100px;
   height: calc(100vh - 80px);
@@ -32,4 +32,24 @@
 
 #second-left-bar {
   margin-top: 750px;
+}
+
+/*MAIN*/
+#blue-bar {
+  height: 180px;
+  width: calc(100vw - 100px);
+  background-color: #1b72e8;
+  color: white;
+}
+
+#blue-bar i {
+  border: 1px solid white;
+  border-radius: 10%;
+  padding: 10px;
+}
+
+#blue-bar .round {
+  background-color: #165bba;
+  border-radius: 10%;
+  margin: 10px;
 }
