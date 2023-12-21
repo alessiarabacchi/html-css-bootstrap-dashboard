@@ -68,6 +68,11 @@
   list-style: none;
 }
 
+.container a {
+  text-decoration: none;
+  color: black;
+}
+
 .container .col-12,
 .container .col-lg-8 {
   border: 1px solid grey;
