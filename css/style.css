@@ -116,7 +116,18 @@
   width: 40px;
 }
 
-.to-do {
+.grey-btn {
+  color: grey;
+  border: 1px solid grey;
+  width: 40px;
+}
+
+.img-card {
+  width: 300px;
+  height: 300px;
+}
+
+.col-leg-4 .right-cards {
   position: absolute;
-  right: 0;
+  left: 870px;
 }
