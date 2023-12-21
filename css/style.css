@@ -58,10 +58,11 @@
 .container {
   position: absolute;
   right: 0;
-  left: 0;
+  left: 150px;
   top: 270px;
   height: calc(100vh - 180px - 100px);
   width: calc(100vw - 80px);
+  overflow: scroll;
 }
 
 .container ul {
@@ -113,4 +114,9 @@
   color: grey;
   border: 1px solid grey;
   width: 40px;
+}
+
+.to-do {
+  position: absolute;
+  right: 0;
 }
