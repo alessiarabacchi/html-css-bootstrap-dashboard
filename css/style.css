@@ -57,5 +57,55 @@
 
 .container {
   position: absolute;
-  top: 280px;
+  right: 0;
+  left: 0;
+  top: 270px;
+  height: calc(100vh - 180px - 100px);
+  width: calc(100vw - 80px);
+}
+
+.container ul {
+  list-style: none;
+}
+
+.container .col-12,
+.container .col-lg-8 {
+  border: 1px solid grey;
+}
+
+.container .col-12 h2,
+.container .col-lg-8 h2 {
+  border-bottom: 1px solid grey;
+}
+
+.col-4 i {
+  color: white;
+  background-color: red;
+  border-radius: 20px;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.green-btn {
+  color: white;
+  background-color: green;
+  border-radius: 10px;
+}
+
+.red-btn {
+  color: white;
+  background-color: red;
+  border-radius: 10px;
+}
+
+.yellow-btn {
+  color: white;
+  background-color: orange;
+  border-radius: 10px;
+}
+
+.grey-btn {
+  color: grey;
+  border: 1px solid grey;
+  width: 40px;
 }
